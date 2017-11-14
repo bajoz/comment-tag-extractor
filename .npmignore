@@ -1,0 +1,13 @@
+/lib/
+/node_modules/
+/.tmp/
+.DS_Store
+yarn-error.log
+npm-debug.log
+coverage
+.githooks/
+.nvmrc
+yarn.lock
+circle.yml
+.npmignore
+.gitignore
