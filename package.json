@@ -1,10 +1,9 @@
 {
-  "name": "docblock-tag-extractor",
+  "name": "comment-tag-extractor",
   "version": "0.1.0",
   "description": "Extract tags from docblock comments.",
-  "main": "lib/docblock-tag-extractor.min.js",
+  "main": "lib/comment-tag-extractor.min.js",
   "scripts": {
-    "start": "node lib/parser.js",
     "build": "webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "jest",
@@ -23,30 +22,34 @@
     "eslint": "3.19.0",
     "eslint-loader": "1.7.1",
     "jest": "^21.2.1",
+    "prettier-eslint-cli": "^4.4.0",
     "webpack": "3.1.0",
     "yargs": "7.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/enbajo/docblock-tag-extractor.git"
+    "url": "https://github.com/enbajo/comment-tag-extractor.git"
   },
   "keywords": [
     "parser",
-    "docblock",
     "comment",
+    "docblock",
+    "extract",
+    "tag",
     "json",
     "css",
     "scss",
-    "js"
+    "js",
+    "c",
+    "code"
   ],
   "author": "Endrit Bajo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/enbajo/docblock-tag-extractor/issues"
+    "url": "https://github.com/enbajo/comment-tag-extractor/issues"
   },
-  "homepage": "https://github.com/enbajo/docblock-tag-extractor",
+  "homepage": "https://github.com/enbajo/comment-tag-extractor",
   "dependencies": {
-    "detect-newline": "^2.1.0",
-    "prettier-eslint-cli": "^4.4.0"
+    "detect-newline": "^2.1.0"
   }
 }

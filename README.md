@@ -1,9 +1,9 @@
-# docblock-tag-extractor
+# comment-tag-extractor
 
 ## Usage
 
 ```javascript
-import {extract, parse} from 'docblock-tag-extractor';
+import {extract, parse} from 'comment-tag-extractor';
 
 const code = `
   /**
@@ -20,7 +20,7 @@ const code = `
     */
 `;
 
-const tags = extract(parse(code));
+const tags = parse(extract(code));
 console.log(tags);
 
 // Will output:
@@ -34,4 +34,4 @@ console.log(tags);
 ```
 
 #### Mentions
-Code inspired by `jest-codeblocks`.
+Adapted from `jest-codeblocks`.

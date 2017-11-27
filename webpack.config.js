@@ -6,7 +6,7 @@ const path = require('path');
 const env = require('yargs').argv.env; // use --env with webpack 2
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
-let libraryName = 'docblock-tag-extractor';
+let libraryName = 'comment-tag-extractor';
 let outputPath = __dirname + '/lib';
 let outputFile;
 let cleanOptions = {

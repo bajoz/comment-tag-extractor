@@ -1,6 +1,6 @@
 import { parse, extract } from '..';
 
-describe('docblock-tag-extractor', () => {
+describe('comment-tag-extractor', () => {
   let comment1;
   let comment2;
   let noTagsComment;
