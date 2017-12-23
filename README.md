@@ -1,5 +1,19 @@
 # comment-tag-extractor
 
+## Install
+
+Install with [npm](https://www.npmjs.com/):
+
+```sh
+$ npm install --save comment-tag-extractor
+```
+
+Install with yarn:
+
+```sh
+$ yarn add comment-tag-extractor
+```
+
 ## Usage
 
 ```javascript
