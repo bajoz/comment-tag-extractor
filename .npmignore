@@ -11,6 +11,8 @@ yarn-error.log
 /src/
 .githooks/
 .nvmrc
+.babelrc
+.eslintrc
 webpack.*
 stylelint.*
 yarn.lock
