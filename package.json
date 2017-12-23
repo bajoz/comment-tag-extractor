@@ -1,6 +1,6 @@
 {
   "name": "comment-tag-extractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract tags from docblock comments.",
   "main": "lib/comment-tag-extractor.min.js",
   "scripts": {
